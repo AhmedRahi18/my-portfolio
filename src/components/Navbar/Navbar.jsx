@@ -99,7 +99,7 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="">
-        <NavLink to="/contact">
+        <NavLink to="/#contact">
             <button className="btn btn-primary md:ms-0 ms-1 text-white">
               <FaHandshake size={20} />
               Hire me
