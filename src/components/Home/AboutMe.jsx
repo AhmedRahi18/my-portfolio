@@ -30,7 +30,7 @@ const AboutMe = () => {
                         <p className="text-white w-24">Projects Completed</p>
                     </div>
                 </div>
-                <div className="text-center">
+                <div className="text-center md:text-start md:ms-20">
                 <Link to='/#contact'
                 ><button className="btn btn-primary text-gray-100 mt-10 md:ms-0">Contact Me</button>
                 </Link>
