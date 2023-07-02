@@ -5,9 +5,6 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
 const AboutMe = () => {
-    const scrollTo = (offset) => {
-        scroll.scrollTo(offset); // Adjust the scroll offset based on your layout
-      };
       useEffect(()=>{
         Aos.init({
           duration:1000
