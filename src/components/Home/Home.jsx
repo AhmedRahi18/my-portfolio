@@ -1,5 +1,7 @@
 import AboutMe from "./AboutMe";
 import Banner from "./Banner";
+import Contact from "./Contact";
+import Projects from "./Projects";
 import Skills from "./Skills";
 import './font.css'
 
@@ -9,6 +11,8 @@ const Home = () => {
             <Banner></Banner>
             <AboutMe></AboutMe>
             <Skills></Skills>
+            <Projects></Projects>
+            <Contact></Contact>
         </div>
     );
 };
