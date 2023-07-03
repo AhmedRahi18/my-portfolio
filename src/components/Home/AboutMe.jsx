@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import { animateScroll as scroll } from 'react-scroll';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const AboutMe = () => {
       useEffect(()=>{
@@ -31,8 +30,8 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className="text-center md:text-start md:ms-20">
-                <Link to='/#contact'
-                ><button className="btn btn-primary text-gray-100 mt-10 md:ms-0">Contact Me</button>
+                <Link to='contact' smooth={true}>
+                <button className="btn btn-primary text-gray-100 mt-10 md:ms-0">Contact Me</button>
                 </Link>
                 </div>
             </div>

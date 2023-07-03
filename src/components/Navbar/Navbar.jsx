@@ -6,59 +6,59 @@ import {
   FaHome,
   FaUser,
 } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 const NavBar = () => {
   const navOptions = (
     <>
       <li className="my-font">
-        <NavLink to="/#home">
+        <Link to="home" smooth={true}>
           <div className="flex md:flex-col flex-row">
             <p className="md:ms-2 md:me-0 me-2">
               <FaHome size={20}></FaHome>
             </p>
             <p>Home</p>
           </div>
-        </NavLink>
+        </Link>
       </li>
       <li className="my-font">
-        <NavLink to="/#about">
+        <Link to="about" smooth={true}>
           <div className="flex md:flex-col flex-row">
             <p className="md:ms-3 md:me-0 me-2">
               <FaUser size={20}></FaUser>
             </p>
             <p>About</p>
           </div>
-        </NavLink>
+        </Link>
       </li>
       <li className="my-font">
-        <NavLink to="/#skills">
+        <Link to="skills" smooth={true}>
           <div className="flex md:flex-col flex-row">
             <p className="md:ms-2 md:me-0 me-2">
               <FaCode size={20}></FaCode>
             </p>
             <p>Skills</p>
           </div>
-        </NavLink>
+        </Link>
       </li>
       <li className="my-font">
-        <NavLink to="/#projects">
+        <Link to="projects" smooth={true}>
           <div className="flex md:flex-col flex-row">
             <p className="md:ms-4 md:me-0 me-2">
               <FaFolderOpen size={20}></FaFolderOpen>
             </p>
             <p>Projects</p>
           </div>
-        </NavLink>
+        </Link>
       </li>
       <li className="my-font">
-        <NavLink to="/#contact">
+        <Link to="contact" smooth={true}>
           <div className="flex md:flex-col flex-row">
             <p className="md:ms-4 md:me-0 me-2">
               <FaEnvelopeOpenText size={20}></FaEnvelopeOpenText>
             </p>
             <p>Contact</p>
           </div>
-        </NavLink>
+        </Link>
       </li>
     </>
   );
@@ -99,12 +99,12 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="">
-        <NavLink to="/#contact">
+        <Link to="contact" smooth={true}>
             <button className="btn btn-primary md:ms-0 ms-1 text-white">
               <FaHandshake size={20} />
               Hire me
             </button>
-          </NavLink>
+          </Link>
         </div>
       </div>
     </>
