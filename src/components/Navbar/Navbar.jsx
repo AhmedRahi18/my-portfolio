@@ -12,7 +12,7 @@ const NavBar = () => {
     <>
       <li className="my-font">
         <Link to="home" smooth={true}>
-          <div className="flex md:flex-col flex-row">
+          <div className="flex md:flex-col flex-row hover:text-violet-400">
             <p className="md:ms-2 md:me-0 me-2">
               <FaHome size={20}></FaHome>
             </p>
@@ -22,7 +22,7 @@ const NavBar = () => {
       </li>
       <li className="my-font">
         <Link to="about" smooth={true}>
-          <div className="flex md:flex-col flex-row">
+          <div className="flex md:flex-col flex-row hover:text-violet-400">
             <p className="md:ms-3 md:me-0 me-2">
               <FaUser size={20}></FaUser>
             </p>
@@ -32,7 +32,7 @@ const NavBar = () => {
       </li>
       <li className="my-font">
         <Link to="skills" smooth={true}>
-          <div className="flex md:flex-col flex-row">
+          <div className="flex md:flex-col flex-row hover:text-violet-400">
             <p className="md:ms-2 md:me-0 me-2">
               <FaCode size={20}></FaCode>
             </p>
@@ -42,7 +42,7 @@ const NavBar = () => {
       </li>
       <li className="my-font">
         <Link to="projects" smooth={true}>
-          <div className="flex md:flex-col flex-row">
+          <div className="flex md:flex-col flex-row hover:text-violet-400">
             <p className="md:ms-4 md:me-0 me-2">
               <FaFolderOpen size={20}></FaFolderOpen>
             </p>
@@ -52,7 +52,7 @@ const NavBar = () => {
       </li>
       <li className="my-font">
         <Link to="contact" smooth={true}>
-          <div className="flex md:flex-col flex-row">
+          <div className="flex md:flex-col flex-row hover:text-violet-400">
             <p className="md:ms-4 md:me-0 me-2">
               <FaEnvelopeOpenText size={20}></FaEnvelopeOpenText>
             </p>
