@@ -28,7 +28,7 @@ const ParticleBg = () => {
                   "position": "50% 50%",
                   "repeat": "no-repeat",
                   "size": "cover",
-                  "opacity": 1
+                  "opacity": 2
                 },
                 "backgroundMask": {
                   "composite": "destination-out",
@@ -67,7 +67,7 @@ const ParticleBg = () => {
                       "mode": "repulse",
                       "parallax": {
                         "enable": false,
-                        "force": 60,
+                        "force": 80,
                         "smooth": 10
                       }
                     },
@@ -321,8 +321,8 @@ const ParticleBg = () => {
                       "width": 1920,
                       "height": 1080
                     },
-                    "limit": 60,
-                    "value": 60
+                    "limit": 0,
+                    "value": 100
                   },
                   "opacity": {
                     "random": {
@@ -378,7 +378,7 @@ const ParticleBg = () => {
                         ],
                         "font": "Verdana",
                         "style": "",
-                        "weight": "200",
+                        "weight": "400",
                         "fill": true
                       },
                       
@@ -390,7 +390,7 @@ const ParticleBg = () => {
                       "enable": false,
                       "minimumValue": 1
                     },
-                    "value": 10,
+                    "value": 12,
                     "animation": {
                       "count": 0,
                       "enable": false,
@@ -586,7 +586,7 @@ const ParticleBg = () => {
                     "distance": 100,
                     "enable": true,
                     "frequency": 1,
-                    "opacity": 0.4,
+                    "opacity": 0.5,
                     "shadow": {
                       "blur": 5,
                       "color": {
