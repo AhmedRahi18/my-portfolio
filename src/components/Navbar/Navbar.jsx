@@ -7,6 +7,7 @@ import {
   FaUser,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
+import './Navbar.css';
 const NavBar = () => {
   const navOptions = (
     <>
@@ -65,7 +66,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar ms-10 fixed lg:ms-[309px] bg-opacity-30 max-w-screen-xl bg-transparent text-white z-10">
+      <div id="navbar" className="navbar fixed bg-opacity-30 max-w-screen-xl bg-transparent text-white z-10">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="-ms-10 btn btn-ghost lg:hidden">
@@ -100,7 +101,7 @@ const NavBar = () => {
         </div>
         <div className="">
         <Link to="contact" smooth={true}>
-            <button className="btn btn-primary md:ms-0 ms-1 text-white">
+            <button className="btn btn-primary md:ms-0 ms-1 md:me-10 text-white">
               <FaHandshake size={20} />
               Hire me
             </button>
