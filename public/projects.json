@@ -4,7 +4,7 @@
     "name": "Toy Car MarketPlace",
     "image": "https://i.ibb.co/QkGJ3jY/Screenshot-2023-07-02-054814.png",
     "details": "Full-stack toy car marketplace website here with CRUD operations.Users can add toys and see details when they are logged in. The added toys wil show in the All toys page.",
-    "liveLink": "https://wheels-on-fire.netlify.app/",
+    "liveLink": "https://wheel-on-fire.netlify.app/",
     "githubClient": "https://github.com/AhmedRahi18/wheels-on-fire-client/tree/master",
     "githubServer": "https://github.com/AhmedRahi18/wheels-on-fire-server"
   },
