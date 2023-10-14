@@ -41,6 +41,8 @@ const Skills = () => {
                     <ProgressBar  bgColor="#329" className="md:w-96 w-44" completed={55} />
                     <p className="my-2">Express JS</p>
                     <ProgressBar  bgColor="#329" className="md:w-96 w-44" completed={65} />
+                    <p className="my-2">Wordpress</p>
+                    <ProgressBar  bgColor="#329" className="md:w-96 w-44" completed={80} />
                 </div>
             </div>
             </div>
