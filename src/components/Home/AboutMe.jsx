@@ -20,18 +20,18 @@ const AboutMe = () => {
                 <p className="w-80 mx-auto md:mx-0 md:w-[600px] text-gray-200 text-xl mt-10">I'm a highly skilled front-end developer and an expert in the MERN stack, residing in Chittagong, Bangladesh. Currently, I'm working as a web developer at Merseyside Consultancy Bangladesh. My work is marked by a strong commitment, a tireless work ethic, and a genuine enthusiasm for continuous learning. I excel at crafting interactive web applications with the MERN stack and possess in-depth knowledge of front-end technologies. I am a quick learner who stays current with the latest trends in the industry. You're welcome to explore my portfolio and witness my unwavering dedication to delivering top-notch results. If you're interested in potential collaboration, please don't hesitate to get in touch.
                 </p>
                 <div className="flex justify-center md:justify-normal">
-                    <div className="me-8 bg-gradient-to-r from-indigo-900 to-violet-800 p-5 text-center mt-8">
+                    <div className="me-8 bg-gradient-to-r from-indigo-900 to-blue-900 rounded p-5 text-center mt-8">
                         <p className="text-white text-5xl">1</p>
                         <p className="text-white w-24">Years of Experience</p>
                     </div>
-                    <div className="me-8 bg-gradient-to-r from-indigo-900 to-violet-800 p-5 text-center mt-8">
+                    <div className="me-8 bg-gradient-to-r from-indigo-900 to-blue-900 rounded p-5 text-center mt-8">
                         <p className="text-white text-5xl">15+</p>
                         <p className="text-white w-24">Projects Completed</p>
                     </div>
                 </div>
                 <div className="text-center md:text-start md:ms-20">
                 <Link to='contact' smooth={true}>
-                <button className="btn btn-primary text-gray-100 mt-10 md:ms-0">Contact Me</button>
+                <button className="btn bg-gradient-to-r from-[#068dfb] to-indigo-700 hover:scale-110 border-none text-gray-100 mt-10 md:ms-0">Contact Me</button>
                 </Link>
                 </div>
             </div>

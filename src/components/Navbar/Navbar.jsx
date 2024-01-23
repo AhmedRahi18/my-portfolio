@@ -12,8 +12,8 @@ const NavBar = () => {
   const navOptions = (
     <>
       <li className="my-font">
-        <Link className="hover:text-violet-400" to="home" smooth={true}>
-          <div className="flex md:flex-col flex-row hover:text-violet-400">
+        <Link className="hover:text-[#068dfb]" to="home" smooth={true}>
+          <div className="flex md:flex-col flex-row hover:text-[#068dfb]">
             <p className="md:ms-2 md:me-0 me-2">
               <FaHome size={20}></FaHome>
             </p>
@@ -22,8 +22,8 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="my-font">
-        <Link className="hover:text-violet-400" to="about" smooth={true}>
-          <div className="flex md:flex-col flex-row hover:text-violet-400">
+        <Link className="hover:text-[#068dfb]" to="about" smooth={true}>
+          <div className="flex md:flex-col flex-row hover:text-[#068dfb]">
             <p className="md:ms-3 md:me-0 me-2">
               <FaUser size={20}></FaUser>
             </p>
@@ -32,8 +32,8 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="my-font">
-        <Link className="hover:text-violet-400" to="skills" smooth={true}>
-          <div className="flex md:flex-col flex-row hover:text-violet-400">
+        <Link className="hover:text-[#068dfb]" to="skills" smooth={true}>
+          <div className="flex md:flex-col flex-row hover:text-[#068dfb]">
             <p className="md:ms-2 md:me-0 me-2">
               <FaCode size={20}></FaCode>
             </p>
@@ -42,8 +42,8 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="my-font">
-        <Link className="hover:text-violet-400" to="projects" smooth={true}>
-          <div className="flex md:flex-col flex-row hover:text-violet-400">
+        <Link className="hover:text-[#068dfb]" to="projects" smooth={true}>
+          <div className="flex md:flex-col flex-row hover:text-[#068dfb]">
             <p className="md:ms-4 md:me-0 me-2">
               <FaFolderOpen size={20}></FaFolderOpen>
             </p>
@@ -52,8 +52,8 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="my-font">
-        <Link className="hover:text-violet-400" to="contact" smooth={true}>
-          <div className="flex md:flex-col flex-row hover:text-violet-400">
+        <Link className="hover:text-[#068dfb]" to="contact" smooth={true}>
+          <div className="flex md:flex-col flex-row hover:text-[#068dfb]">
             <p className="md:ms-4 md:me-0 me-2">
               <FaEnvelopeOpenText size={20}></FaEnvelopeOpenText>
             </p>
@@ -93,7 +93,7 @@ const NavBar = () => {
             </ul>
           </div>
           <a className="my-font uppercase md:ms-20 ms-3 md:me-0 me-2 font-semibold text-2xl">
-            Ahmed <span className="text-violet-800">Rahi</span>
+            Ahmed <span className="text-[#068dfb]">Rahi</span>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -101,7 +101,7 @@ const NavBar = () => {
         </div>
         <div className="">
         <Link to="contact" smooth={true}>
-            <button className="btn btn-primary md:ms-0 ms-1 md:me-10 text-white">
+            <button className="btn bg-gradient-to-r from-[#068dfb] to-indigo-700 border-none hover:scale-110 md:ms-0 ms-1 md:me-10 text-white">
               <FaHandshake size={20} />
               Hire me
             </button>

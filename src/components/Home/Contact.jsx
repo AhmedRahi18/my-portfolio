@@ -64,7 +64,7 @@ const Contact = () => {
             <label className="text-white">Message</label>
             <textarea className="p-1 rounded" required placeholder="Your Message" name="message" />
             <br />
-            <input className="text-white btn btn-primary" type="submit" value="Send" />
+            <input className="text-white btn bg-gradient-to-r from-[#068dfb] to-indigo-700 hover:scale-110 border-none" type="submit" value="Send" />
           </form>
         </div>
         <div className="text-white flex md:mt-0 mt-5 flex-col gap-5 md:text-2xl">

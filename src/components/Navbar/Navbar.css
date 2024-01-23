@@ -1,27 +1,25 @@
 @media (min-width: 376px) and (max-width: 760px) {
-    div#navbar {
-        margin-left: 40px;
-    }
+  div#navbar {
+    margin-left: 40px;
   }
+}
 @media (min-width: 761px) and (max-width: 1400px) {
-    div#navbar {
-        margin-left: 40px;
-    }
+  div#navbar {
+    margin-left: 40px;
   }
+}
 @media (min-width: 1401px) and (max-width: 1600px) {
-    div#navbar {
-        margin-left: 80px;
-    }
+  div#navbar {
+    margin-left: 80px;
   }
+}
 @media (min-width: 1601px) and (max-width: 1700px) {
-    div#navbar {
-        margin-left: 140px;
-    }
+  div#navbar {
+    margin-left: 140px;
   }
+}
 @media (min-width: 1701px) and (max-width: 1920px) {
-    div#navbar {
-        margin-left: 300px;
-    }
+  div#navbar {
+    margin-left: 300px;
   }
-
-  
+}
