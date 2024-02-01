@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Summer Camp Athletes Academy",
     "image": "https://i.ibb.co/6rwhC0g/Screenshot-2023-07-02-061357.png",
-    "details": "Full-Stack summer camp athletes academy website with CRUD operations.The website dashboard is different for different users(admin,instructors,students/users).Users can see many sports classes and select the classes and can payment.",
+    "details": "Full-Stack website with CRUD operations and stripe payment method.The website dashboard is different for different users(admin,instructors,students/users).",
     "liveLink": "https://supreme-athletes-academy.web.app/",
     "githubClient": "https://github.com/AhmedRahi18/supreme-athletes-academy-client",
     "githubServer": "https://github.com/AhmedRahi18/supreme-athletes-academy-server"
@@ -25,5 +25,19 @@
     "liveLink": "https://recipes-corner-4441e.web.app/",
     "githubClient": "https://github.com/AhmedRahi18/recipes-corner-client",
     "githubServer": "https://github.com/AhmedRahi18/recipes-corner-server"
+  },
+  {
+    "id": 4,
+    "name": "MGC College",
+    "image": "https://i.ibb.co/pxJh0Zx/mgc-ss.png",
+    "details": "A college website of UK, for people who want to know about their programs.Its basically created with Wordpress, Woocommerce and Elementor pro",
+    "liveLink": "https://mgccollege.com/"
+  },
+  {
+    "id": 5,
+    "name": "MACP",
+    "image": "https://i.ibb.co/WpVFYs5/macpSS.png",
+    "details": "A portal website of UK, for UK university informations. Its basically created with Wordpress and Elementor pro",
+    "liveLink": "https://www.macp.one/"
   }
 ]

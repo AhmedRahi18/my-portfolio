@@ -1,0 +1,134 @@
+@media (min-width: 376px) and (max-width: 760px) {
+    div#projects {
+      margin-left: 20px;
+    }
+    #des{
+        width: fit-content;
+    }
+    #name{
+        font-size: smaller;
+       }
+    #details{
+        font-size: xx-small;
+       }
+    #links{
+        font-size: xx-small;
+       }
+  }
+  @media (min-width: 761px) and (max-width: 1023px) {
+    div#projects {
+      margin-left: 150px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 5px;
+    }
+    #name{
+        font-size: smaller;
+       }
+    #details{
+        font-size: xx-small;
+        width: auto;
+       }
+    #links{
+        font-size: xx-small;
+       }
+  }
+  @media (min-width: 1024px) and (max-width: 1100px) {
+    div#projects {
+      margin-left: 150px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 5px;
+    }
+    #name{
+        font-size: smaller;
+       }
+    #details{
+        font-size: x-small;
+       }
+    #links{
+        font-size: small;
+       }
+  }
+  @media (min-width: 1101px) and (max-width: 1400px) {
+    div#projects {
+      margin-left: 150px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 5px;
+    }
+    #name{
+        font-size: smaller;
+       }
+    #details{
+        font-size: small;
+       }
+    #links{
+        font-size: small;
+       }
+  }
+  @media (min-width: 1401px) and (max-width: 1700px) {
+    div#projects {
+      margin-left: 240px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 15px;
+    }
+    #name{
+        font-size: medium;
+        margin-bottom: 10px;
+       }
+    #details{
+        font-size: small;
+       }
+    #links{
+        font-size: small;
+       }
+    
+  }
+  @media (min-width: 1701px) and (max-width: 1900px) {
+    div#projects {
+      margin-left: 320px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 15px;
+    }
+    #name{
+        font-size: medium;
+        margin-bottom: 10px;
+        margin-top: 10px;
+       }
+   
+  }
+  @media (min-width: 1901px) and (max-width: 2800px) {
+    div#projects {
+      margin-left: 320px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 15px;
+    }
+    #name{
+        margin-bottom: 10px;
+        margin-top: 10px;
+       }
+  }
+  @media (min-width: 2801px) and (max-width: 3800px) {
+    div#projects {
+      margin-left: 460px;
+    }
+    #des{
+        width: fit-content;
+        margin-top: 15px;
+    }
+    #name{
+        margin-bottom: 10px;
+        margin-top: 10px;
+       }
+  }
+ 

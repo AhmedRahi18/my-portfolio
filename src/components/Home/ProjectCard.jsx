@@ -1,8 +1,9 @@
 import { useState } from "react";
+import "./Projects.css"
 
-const ProjectCard = ({project}) => {
-    const {image,name,details,liveLink,githubClient,githubServer} = project;
-    const [isHovered, setIsHovered] = useState(false);
+const ProjectCard = ({ project }) => {
+  const { image, name, details, liveLink, githubClient, githubServer } = project;
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div
@@ -19,12 +20,12 @@ const ProjectCard = ({project}) => {
       />
       {isHovered && (
         <div className="absolute top-0  left-0 w-full h-full">
-          <p className="text-white text-center md:mt-5 font-bold md:mb-3 text-lg md:text-2xl md:me-20 lg:me-80">{name}</p>
-          <p className="text-white w-80 md:w-96 mx-auto md:mx-0 md:me-20 text-xs md:text-sm md:ms-20">{details}</p>
-          <div className="flex justify-center md:me-32 lg:me-80">
-          <a href={liveLink} className="text-indigo-400 ms-3 me-1 underline">Live Link | </a>
-          <a href={githubClient} className="text-indigo-400 me-1 underline">Github Client | </a>
-          <a href={githubServer} className="text-indigo-400 underline">Github Server</a>
+          <p id="name" className="text-white text-center md:mt-2 font-bold text-lg md:text-2xl ">{name}</p>
+          <p id="details" className="text-white text-center w-40 md:w-4/5 mx-auto">{details}</p>
+          <div id="links" className="flex justify-center">
+            {liveLink && <a href={liveLink} className="text-[#068dfb] ms-3 me-1 underline">Live Link | </a>}
+            {githubClient && <a href={githubClient} className="text-[#068dfb] me-1 underline">Github Client | </a>}
+            {githubServer && <a href={githubServer} className="text-[#068dfb] underline">Github Server</a>}
           </div>
         </div>
       )}
